@@ -1,0 +1,45 @@
+/************************************** TESTIMONIALS ***********************/
+
+section#testimonials{
+	height: 341px;
+	background-color: $white;
+}
+
+section#testimonials .sec,section#testimonials .sec hr{
+	color: #828181;
+	border-color: #828181;
+}
+
+section#testimonials .sec p{
+	color: #b7b3b3;
+}
+
+#testimonials .rotator{
+	position: relative;
+	height: 241px;
+}
+
+#testimonials .rotator a img{
+	width: 15px;
+	height: 28px;
+}
+
+#testimonials .rotator a .prev{
+	position: absolute;
+	left : 205px;
+	top: 77px;
+}
+
+#testimonials .rotator a .next{
+	position: absolute;
+	right : 205px;
+	top: 77px;
+}
+
+#testimonials .rotator .content{
+	position: absolute;
+	width: 500px;
+	height: 134px;
+	margin-left: 343px;
+	margin-top: 50px;
+}

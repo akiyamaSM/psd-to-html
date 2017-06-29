@@ -1,0 +1,181 @@
+/************************************** Team ***********************/
+
+section#team{
+	background-color: $primary-color;
+}
+
+section#team .sec,section#team .sec hr{
+	color: #207b20;
+	border-color: #207b20;
+}
+
+section#team .sec p{
+	color: #2b9b2b;
+}
+
+#team .list_team{
+	width: 920px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+}
+
+#team .list_team .member{
+	float: left;
+	margin-right: 49px;
+
+}
+
+#team .list_team .member:nth-child(5n+0){
+	margin-right: 0px;
+}
+
+#team .list_team .member img{
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background-color: $white;
+	margin: auto;
+	display: block;
+}
+
+#team .list_team .member .Vline{
+	height: 77px;
+	width: 2px;
+	background-color: #207b20;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#team .list_team .member span{
+	display: block;
+	text-align: center;
+	color: $white;
+	font-size: 14pt;
+	font-family: "Myriad Pro";
+}
+.wrapper_social{
+	text-align: center;
+}
+
+.social{
+	list-style: none;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+.social li{
+	float: left;
+	background-color: #c5e9c5;
+	padding: 4px 0px 0px 6px;
+}
+.social li:first-child{
+	-webkit-border-top-left-radius: 15px; 
+	-webkit-border-bottom-left-radius: 15px;
+}
+
+.social li:last-child{
+	float: left;
+	padding-right: 6px;
+	-webkit-border-top-right-radius: 15px; 
+	-webkit-border-bottom-right-radius: 15px;
+}
+.social li a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/twitter.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.social li a:hover{
+	transform : scale(1.2);
+}
+
+#team .button_wrapper{
+	padding-top: 27px;
+	padding-bottom: 21px;
+	background-color: #3eba3e;
+	text-align: center;
+
+}
+
+#team .button_wrapper a{
+	display: inline-block;
+	padding: 13px 28px 14px 29px;
+	background-color: $primary-color;
+	-webkit-border-radius: 24px;
+	-o-border-radius: 24px;
+	-moz-border-radius: 24px;
+	border-radius: 24px;
+	text-decoration: none;
+	color: $white;
+	@include transition(background-color, 1s);
+	box-shadow: 5px 5px #32b33266;
+	-webkit-box-shadow: 5px 5px #32b33266;
+	-moz-box-shadow: 5px 5px 9px #32b33266;
+}
+
+#team .button_wrapper a:hover{
+	background-color: #39ca39;
+	-webkit-animation-name: shake;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes shake{
+	0% {
+		-webkit-transform : translateX(2px);
+		-webkit-transform : rotate(4deg);
+	}
+
+	10% {
+		-webkit-transform : translateX(-2px);
+		-webkit-transform : rotate(-4deg);
+	}
+
+	20% {
+		-webkit-transform : translateX(2px);
+		-webkit-transform : rotate(4deg);
+	}
+
+	30% {
+		-webkit-transform : translateX(-2px);
+		-webkit-transform : rotate(-4deg);
+	}
+	40% {
+		-webkit-transform : translateX(2px);
+	}
+
+	50% {
+		-webkit-transform : translateX(-2px);
+	}
+	60% {
+		-webkit-transform : translateX(2px);
+	}
+
+	70% {
+		-webkit-transform : translateX(-2px);
+	}
+	80% {
+		-webkit-transform : translateX(2px);
+	}
+
+	90% {
+		-webkit-transform : translateX(-2px);
+	}
+
+	0% {
+		-webkit-transform : translateX(2px);
+	}
+
+	100% {
+		-webkit-transform : translateX(-2px);
+	}
+}

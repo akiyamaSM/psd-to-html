@@ -1,0 +1,83 @@
+/************************************** SERVICES ***********************/
+
+
+section#services{
+	background-color: $white;
+}
+
+section#services .sec{
+	color: #828181;
+	border-color: #828181;
+}
+
+section#services .sec p{
+	color: #b7b3b3;
+}
+
+section#services .items{
+	margin-top: 68px;
+	margin-right: 73px;
+	margin-left: 72px;
+}
+
+section#services .items .service{
+	float: left;
+	width: 266px;
+	height: 336px;
+	margin-right: 111px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+section#services .items .service:nth-child(3n+0){
+	margin-right: 0px;
+}
+
+section#services .items .service .rect{
+	width: 145px;
+	height: 142px;
+	background-color: #e1f3e1;
+	margin: 0 auto;
+	border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	-o-border-radius: 22px;
+}
+
+section#services .items .service .photo{
+	background-image: url(../img/photo.png) ;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+section#services .items .service h3{
+	margin-top: 27px;
+	margin-bottom: 18px;
+	font-size: 15pt;
+	font-weight: bold;
+	color: #828181;
+}
+
+section#services .items .service p{
+	margin-bottom: 25px;
+	font-size: 9pt;
+	color: #828181;
+}
+
+section#services .items .service a{
+	display: inline-block;
+	text-decoration: none;
+	color: $white;
+	font-size: 12pt;
+	background-color: $primary-color;
+	padding : 9px 22px 10px 22px;
+	-webkit-border-radius : 10px;
+	-o-border-radius : 10px;
+	-moz-border-radius : 10px;
+	border-radius : 10px;
+	transition : transform 1s;
+}
+section#services .items .service a:hover{
+	background-color: #39ca39;
+	transform : scale(1.1);
+}

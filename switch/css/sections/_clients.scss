@@ -1,0 +1,56 @@
+/************************************** CLIENTS ***********************/
+
+section#clients{
+	background-color: #f2f1f1;
+	height: 497px;
+}
+
+section#clients .sec,section#clients .sec hr{
+	color: #828181;
+	border-color: #828181;
+}
+
+section#clients .sec p{
+	color: #b7b3b3;
+}
+
+#clients .clients_item{
+	width: 920px;
+	margin: 0 auto;
+	margin-top: 79px;
+}
+
+#clients .clients_item a{
+	float: left;
+	margin-right: 66px;
+	margin-bottom: 47px;
+}
+
+#clients .clients_item a img{
+	max-width: 160px;
+	max-height: 66px;
+	-webkit-filter: contrast(0%);
+	filter: contrast(0%);
+}
+
+#clients .clients_item a img:hover{
+	-webkit-filter: none;
+	filter: none;
+}
+#clients .clients_item a :nth-child(4n+0){
+	margin-right: 0px;
+}
+
+section#clients a.outter_link{
+	color: #a59d9d;
+	background-color: #dddcdc;
+	margin: 0 auto;
+	width: 108px;
+	display: block;
+	font-weight: bold;
+}
+
+section#clients a.outter_link:hover{
+	background-color: #cccbcb;
+	transform : scale(1.1);
+}

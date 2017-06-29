@@ -1,0 +1,39 @@
+/************************************** GENERAL ***********************/
+.sec{
+	text-align: center;
+}
+
+.sec .sec_header{
+	font-size: 15.54pt;
+	margin-top: 44px;
+	letter-spacing: 2px;
+	padding-bottom: 13px;
+	font-weight: normal;
+	display: inline-block;
+}
+
+.sec hr{
+	border: 1px solid #ccc;
+	width: 43px;
+	margin: 0 auto;
+}
+
+.sec .sec_phrase{
+	font-size: 11pt;
+	font-weight: normal;
+	margin-top: 12px;
+	display: inline-block;
+}
+.outter_link{
+	padding : 12px 43px 15px 22px;
+	text-decoration: none;
+	border: 1px;
+	font-size: 10pt;
+	@include border-radius(20px);
+	margin-top: 26px;
+	display: inline-block;
+	background-image: url(../img/go.png);
+	background-repeat: no-repeat;
+	background-position: 146px center;
+	margin-bottom: 53px;
+}

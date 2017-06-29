@@ -1,0 +1,102 @@
+/************************************** WORKS ***********************/
+section#works{
+	clear: both;
+	background-color: $primary-color;
+}
+
+section#works .sec,section#works .sec hr{
+	color: #207b20;
+	border-color: #207b20;
+}
+
+section#works .sec p{
+	color: #2b9b2b;
+}
+
+section#works .selector{
+	margin: 0 auto;
+	margin-top: 61px;
+	margin-bottom: 53px;
+	width: 920px;
+	text-align: center;	
+}
+
+section#works .selector .categories{
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 57px;
+}
+section#works .selector .categories li {
+	float: left;
+}
+section#works .selector .categories li a {
+	background-color: $white;
+	color: #2b9b2b;
+	border-bottom: 1px solid #2b9b2b;
+	border-top: 2px solid #2b9b2b;
+	border-right: 2px solid #2b9b2b;
+	padding: 10px 20px 7px 19px;
+	text-decoration: none;
+}
+
+section#works .selector .categories li a.selected{
+	background-color: #2b9b2b;
+	color: $white;
+}
+section#works .selector .categories li:first-child a{
+	-webkit-border-radius : 15px 0px 0px 15px;
+	-o-border-radius : 15px 0px 0px 15px;
+	-moz-border-radius : 15px 0px 0px 15px;
+	border-radius : 15px 0px 0px 15px;
+}
+
+section#works .selector .categories li:last-child a{
+	-webkit-border-radius : 0px 15px 15px 0px;
+	-o-border-radius : 0px 15px 15px 0px;
+	-moz-border-radius : 0px 15px 15px 0px;
+	border-radius : 0px 15px 15px 0px;
+}
+
+
+section#works .selector .preview{
+	clear: both;
+	text-align: none;
+}
+section#works .selector .preview img{
+	width: 160px;
+	height: 160px;
+	margin-right: 30px;
+	float: left;
+	margin-bottom: 30px;
+	-webkit-filter: grayscale(80%);
+	cursor: pointer;
+	transition : filter 1s ease-out;
+}
+
+section#works .selector .preview img:hover{
+	-webkit-filter: none;
+}
+
+section#works .selector .preview img:nth-child(5n+0){
+	margin-right: 0px;
+}
+
+section#works .selector a.outter_link{
+	padding : 12px 43px 15px 22px;
+	color: $white;
+	background-color: #2b9b2b;
+	text-decoration: none;
+	border: 1px;
+	font-size: 10pt;
+	@include border-radius(20px);
+	margin-top: 26px;
+	display: inline-block;
+	background-image: url(../img/go.png);
+	background-repeat: no-repeat;
+	background-position: 146px center;
+	margin-bottom: 53px;
+}
+
+section#works .selector a.outter_link:hover{
+	background-color: #248024;
+}
