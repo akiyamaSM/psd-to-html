@@ -1,0 +1,23 @@
+$primary-color : #54d154;
+
+$white : #ffffff;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+@mixin transition($background, $seconds, $extra: false) {
+	$param : $background $seconds;
+
+	@if($extra){
+		$param : $background $seconds $extra;
+	}
+
+	-webkit-transition : $param;
+	   -moz-transition : $param;
+	        transition : $param;
+}
