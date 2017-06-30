@@ -1,6 +1,36 @@
-$primary-color : #54d154;
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300');
 
-$white : #ffffff;
+/* COLORS */ 
+$header-bg			  : #555556;
+$btn-background-color : #998675;
+$icon-hover-color     : #c7b299;
+$white                : #ffffff;
+$title-color-1        : #555555;
+$p-color              : #8c8c8c;
+
+/* FONTS */
+
+$mont 				  : 'Montserrat';
+$rw 				  : 'Raleway';
+
+/* SIZE */ 
+
+$title-font-size      : 30pt;
+$p-font-size          : 28pt;
+
+/* WEIGHTS */ 
+
+$fw-ultra-light		  : 200;
+$fw-light			  : 300;
+$fw-regular			  : 400;
+$fw-medium 			  : 500;
+$fw-semi-bold		  : 600;
+$fw-bold			  : 700;
+$fw-extra-bold		  : 800;
+
+
+/* Mixings */
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -20,4 +50,9 @@ $white : #ffffff;
 	-webkit-transition : $param;
 	   -moz-transition : $param;
 	        transition : $param;
+}
+
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
 }

@@ -1,8 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300");
+/* COLORS */
+/* FONTS */
+/* SIZE */
+/* WEIGHTS */
+/* Mixings */
 * {
   padding: 0;
   margin: 0; }
 
 .clearfix {
   clear: both; }
+
+header {
+  height: 1024px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  header div.overlay {
+    background: #555556;
+    /* The Fallback */
+    background: rgba(85, 85, 86, 0.3);
+    height: 100%; }
+    header div.overlay nav {
+      height: 139px; }
 
 /*# sourceMappingURL=main.css.map */
